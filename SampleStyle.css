@@ -1,0 +1,42 @@
+header {
+    background-color: #cd9083;
+    color: #819044;             
+    padding: 10px;           
+    text-align: center;       
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/abstract-uv-ultraviolet-light-composition_23-2149243965.jpg?ga=GA1.1.815353807.1736965467&semt=ais_tags_boosted');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #b31414;
+    justify-content: center; /* Center horizontally */
+    font-family: Arial, sans-serif;
+    position: relative; /* Establish a positioning context for the pseudo-element */
+    z-index: 0; /* Ensure body content stays above the pseudo-element */
+}
+
+body::before {
+    content: ''; /* Creates a pseudo-element */
+    position: absolute; /* Position it relative to the body */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    z-index: -1; /* Place it behind the body content */
+    pointer-events: none; /* Ensure it doesn't block interactions */
+}
