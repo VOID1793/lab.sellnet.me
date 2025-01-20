@@ -88,12 +88,17 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    justify-content: center;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 table {
     border-collapse: collapse;
     width: 50%;
+    margin: 0 auto;
+    align-items: center;
     background-color: #819044;
 }
 th, td {
