@@ -17,10 +17,77 @@ header img {
     margin-right: auto;
 }
 
+.Class-1 {
+    background-color: gainsboro;
+    border: 5px solid purple;
+    color: black;
+    white-space: pre-wrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto
+}
+
+#theTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #819044;
+}
+th, td {
+    border: 2px solid black;
+    width: 100px
+}
+
+.Class-2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 15px auto;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    border: 5px solid purple;
+
+    background-color: #cd9083;
+
+}
+
+.Class-3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 15px auto;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    
+    border: 5px solid purple;
+    background-image: linear-gradient(to bottom right, purple, blue, purple);
+
+    box-shadow: black;
+}
+
+#monkey {
+    position: fixed;
+}
+
 body {
     background-image: url('https://img.freepik.com/free-photo/abstract-uv-ultraviolet-light-composition_23-2149243965.jpg?ga=GA1.1.815353807.1736965467&semt=ais_tags_boosted');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     color: #b31414;
     justify-content: center; /* Center horizontally */
@@ -39,4 +106,13 @@ body::before {
     background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
     z-index: -1; /* Place it behind the body content */
     pointer-events: none; /* Ensure it doesn't block interactions */
+}
+
+footer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bolder;
 }
