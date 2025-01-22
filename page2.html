@@ -32,6 +32,32 @@
         document.
     </p>
 
+    <section id="CountrySearch">
+
+        <h2>Search for a country's flag!</h2>
+
+        <form id="countryForm">
+            <label for="countrySelect">Select a Country!</label>
+
+            <select id="countrySelect">Select one of the following:
+                <option value="">--Please Choose a Country--</option>
+                <option value="US">United States</option>
+                <option value="GB">United Kingdom</option>
+                <option value="FR">France</option>
+                <option value="AF">Afghanistan</option>
+                <option value="RU">Russia</option>
+                <option value="IN">India</option>
+                <option value="AU">Australia</option>
+            </select>
+
+            <button type="button" id="searchButton">Search</button>
+
+        </form>
+
+        <div id="flagContainer"></div>
+
+    </section>
+
     <select name="FavoriteActivity">
         <optgroup label="Fall">
                <option value="football">Football</option>
@@ -54,5 +80,6 @@
 
 
     <script src="SampleFunction.js"></script>
+    <script src="CountryFinder.js"></script>
 </body>
 </html>
