@@ -145,6 +145,20 @@ th, td {
     position: fixed;
 }
 
+#CountrySearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 50%;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    border: 5px solid purple;
+    background-image: radial-gradient(red, blue, white);
+}
+
 #Page2body {
 
     background-color: #FFF7EE;
